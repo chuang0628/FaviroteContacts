@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.IllegalFormatException;
 
-/*
+/**
  * Wrapper class forContactInfo objects which are used to represent
  * contact on favorites grid with utility methods for ordering contacts,
  * saving and loading order list and showing hint while dragging.
@@ -97,7 +97,7 @@ public class ContactsModel {
 
     }
 
-    /*
+    /**
      *
      * Creates the String of contact ids separated by , and stores it in
      * SharedPreferences for later retrieval.

@@ -4,6 +4,9 @@ import android.graphics.Rect;
 
 import java.util.ArrayList;
 
+/**
+ * Created by 28851482 on 7/10/15.
+ */
 public class RectPool {
     private static ArrayList<Rect> mRectPool = new ArrayList<Rect>();
 

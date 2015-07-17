@@ -4,6 +4,9 @@ import android.content.ContentUris;
 import android.net.Uri;
 import android.provider.ContactsContract;
 
+/**
+ * Created by 28851482 on 7/13/15.
+ */
 public class ContactInfo extends Info {
     private final long mContactId;
 

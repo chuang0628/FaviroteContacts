@@ -1,10 +1,13 @@
 package com.android.cewang.movablepanes.utils;
 
+/**
+ * Created by 28851482 on 7/13/15.
+ */
 public class Constants {
     public final static String PREFERENCE_NAME = "shared_prefs";
-
     public final static String FAVIROTES_ORDER_KEY = "favorites_order";
 
+    /** Constant to define status res package for RCS-e*/
     public static final String RCS_STATUS_PACKAGE = "com.android.cewang";
 
     public static final int CONTACT_ID_COLUMN_INDEX = 0;

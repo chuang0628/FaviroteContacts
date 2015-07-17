@@ -4,8 +4,11 @@ import android.graphics.Rect;
 
 import java.util.ArrayList;
 
+/**
+ * Created by 28851482 on 7/9/15.
+ */
 public class PaneLocation implements Recyclable {
-    /* List of recycled PaneLocations */
+    /** List of recycled PaneLocations */
     private static ArrayList<PaneLocation> sRecycledLocations = new ArrayList<PaneLocation>();
 
     public Rect drawRect;

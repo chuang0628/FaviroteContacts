@@ -13,6 +13,9 @@ import com.android.cewang.movablepanes.utils.PaneLocation;
 
 import java.util.HashMap;
 
+/**
+ * TODO: document your custom view class.
+ */
 public class PaneView extends AdapterView<PaneAdapter> {
 
     private PaneAdapter mPaneAdapter;
@@ -32,7 +35,7 @@ public class PaneView extends AdapterView<PaneAdapter> {
     /* The current items of the pane view */
     private HashMap<Long, AdapterItem> mItems = mItems1;
 
-    /*
+    /**
      * This represents an item in the pane view. It has a view that is displayed
      * at the specified location.
      */
@@ -41,7 +44,7 @@ public class PaneView extends AdapterView<PaneAdapter> {
         PaneLocation location;
     }
 
-    /*
+    /**
      * This is an item that comes from the adaptor. It stores, in addition, the
      * id and position for the item and whether the view is valid or need to be
      * refreshed from the adapter.

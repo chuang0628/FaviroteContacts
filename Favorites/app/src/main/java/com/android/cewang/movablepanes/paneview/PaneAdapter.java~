@@ -5,7 +5,7 @@ import android.widget.ListAdapter;
 
 public interface PaneAdapter extends ListAdapter {
 
-    /*
+    /**
      * Used by PaneView to find out where to position items.
      *
      * @param position The position of the item whose location we want
@@ -16,21 +16,21 @@ public interface PaneAdapter extends ListAdapter {
 
     public int getLocationIndex(int x, int y);
 
-    /*
+    /**
      * Used by PaneView to find out number of columns.
      *
      * @return The number of columns in the PaneView
      */
     public int getColumnsCount();
 
-    /*
+    /**
      * Used by PaneView to find out cell size.
      *
      * @return The size of the cell within the PaneView
      */
     public int getCellSize();
 
-    /*
+    /**
      * Returns true if this info represents an interactive object that
      * wants to handle touch and key interaction on its own.
      *
