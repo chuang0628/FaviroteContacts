@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ***************** Resources for Favorites drag and drop (START) ***************** -->
+
+    <item type="id" name="tag_favorite_contact_view" />
+    <item type="id" name="tag_favorite_contact_data" />
+
+    <!-- *****************  Resources for Favorites drag and drop (END)  ***************** -->
+</resources>

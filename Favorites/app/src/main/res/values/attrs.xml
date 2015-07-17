@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="ExponentialGradientView">
+        <attr name="android:color"/>
+    </declare-styleable>
+</resources>

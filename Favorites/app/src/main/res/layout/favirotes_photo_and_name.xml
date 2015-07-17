@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2011 Sony Mobile Communications Inc.
+    All rights, including trade secret rights, reserved.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/favorites_grid_padding" >
+
+        <ImageView
+            android:id="@+id/imageview_favoritePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="yes"
+            android:scaleType="centerCrop"/>
+
+        <com.android.cewang.movablepanes.widget.ExponentialGradientView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/contact_icon_gradient_margin_top"
+            android:color="@color/contact_image_gradient_end_color"/>
+
+        <RelativeLayout
+            android:id="@+id/gradientLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/list_item_name"
+                style="?android:attr/textAppearanceInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/favorites_name_margin_end"
+                android:layout_marginStart="@dimen/favorites_name_margin_start"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical|start"
+                android:importantForAccessibility="no"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textIsSelectable="false" />
+
+            <QuickContactBadge
+                android:id="@+id/quickcontactbadge"
+                style="?android:attr/quickContactBadgeStyleSmallWindowMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:duplicateParentState="true"
+                android:importantForAccessibility="no"
+                android:src="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/rcs_status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:focusable="false"
+        android:paddingEnd="@dimen/fav_rcs_status_icon_padding_end"
+        android:visibility="gone" />
+
+</FrameLayout>

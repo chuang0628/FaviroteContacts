@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- End color of the gradient used on contact images -->
+    <color name="contact_image_gradient_end_color">#99000000</color>
+</resources>
